@@ -36,7 +36,7 @@ time - timestamps of records in songplays broken down into specific units
 
 start_time, hour, day, week, month, year, weekday
 
-# The project fileS:
+# The project files:
 
 <a href="https://github.com/RashaAlamoud/Data-Lake-on-S3-Redshift/blob/main/etl.py">etl.py</a>: reads data from S3, processes that data using Spark, and writes them back to S3
 
