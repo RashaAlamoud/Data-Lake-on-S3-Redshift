@@ -1,4 +1,4 @@
-# Data-Lake-on-S3-Redshift
+# Data-Lake-on-S3-and-Spark
 Data Engineering Nanodegree Program
 
 # Introduction
@@ -16,6 +16,7 @@ Using the song and log datasets, you'll need to create a star schema optimized f
 
 # Fact Table
 songplays - records in log data associated with song plays i.e. records with page NextSong
+
 songplay_id, start_time, user_id, level, song_id, artist_id, session_id, location, user_agent
 
 # Dimension Tables
@@ -38,5 +39,6 @@ start_time, hour, day, week, month, year, weekday
 # The project fileS:
 
 <a href="https://github.com/RashaAlamoud/Data-Lake-on-S3-Redshift/blob/main/etl.py">etl.py</a>: reads data from S3, processes that data using Spark, and writes them back to S3
+
 dl.cfgcontains</a> :your AWS credentials
 
